@@ -1,0 +1,33 @@
+#spring.flyway.baselineOnMigrate=true
+server:
+  port: 8081
+spring:
+  thymeleaf.cache: false
+  thymeleaf.enabled: true
+  thymeleaf.prefix: classpath:/templates/
+  thymeleaf.suffix: .html
+  application:
+    name: Bootstrap Spring Boot
+  flyway:
+    baseline-on-migrate: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/CarRestApi
+    username: postgres
+    password: 123
+  auth0:
+    domain: dev-pizcvffal7wltwfb.us.auth0.com
+    clientId: 8LO2ZaMdTQA6lxMWCjUnHNAUpfta0CVy
+    clientSecret: Nm7ic4UIPkYqbwr4pQjIQVXbOTHA5uxY0OVW5f-OV1BSiusT0wqdxVIWiOYXtjC5
+  springdoc:
+    swagger-ui:
+      operationsSorter: method
+    api-docs:
+      path: /api-docs

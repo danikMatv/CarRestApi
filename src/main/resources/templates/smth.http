@@ -1,0 +1,4 @@
+POST http://localhost:8081/realms/Security/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=client-demo-id&client_secret=PLRXDqABgnJIXZ3LrnnjEsq9EWi5GrHC&username=api-user&password=123&grant_type=password

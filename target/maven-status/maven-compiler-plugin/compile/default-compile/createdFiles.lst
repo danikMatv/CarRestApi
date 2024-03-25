@@ -1,0 +1,13 @@
+com\foxmided\carrestapi\Repository\CategoryRepository.class
+com\foxmided\carrestapi\Service\CategoryService.class
+com\foxmided\carrestapi\Controllers\CarController.class
+com\foxmided\carrestapi\Model\Car.class
+com\foxmided\carrestapi\Controllers\CategoryController.class
+com\foxmided\carrestapi\Controllers\MainController.class
+com\foxmided\carrestapi\Service\CarService.class
+com\foxmided\carrestapi\Security\SecurityConfig$NoSecurityConfigurer.class
+com\foxmided\carrestapi\CarRestApiApplication.class
+com\foxmided\carrestapi\Repository\CarRepository.class
+com\foxmided\carrestapi\Security\SecurityConfig.class
+com\foxmided\carrestapi\Model\Category.class
+com\foxmided\carrestapi\Model\CarCategoryDto.class
